@@ -1,6 +1,4 @@
-# MC
-
-## Introduction
+# Sum-conditional Bernoulli Sampling 
 
 Sampling from independent Bernoulli random variables conditioned on their sum is a classical problem in statistics and combinatorics. Formally, given a vector of success probabilities $$p = (p_1, \dots, p_N)$$ and a fixed integer $$k$$, the goal is to sample binary vectors $$x \in \{0,1\}^N$$ such that:
 
