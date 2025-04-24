@@ -40,11 +40,11 @@ by Heng, Jacob, and Ju (2020) — [arXiv:2012.03103](https://arxiv.org/pdf/2012.
 
 1. **Rejection Sampling**  
    Naive method: generate i.i.d. samples and reject if the constraint is not met.  
-   Becomes impractical as \\( N \\to \\infty \\) or \\( k \\) is rare.
+   Becomes impractical as $N \to \infty$ or $k$ is rare.
 
 2. **Dynamic Programming (Exact)**  
-   Recursive table \\( q(i,n) \\) enables exact sampling of constrained Bernoulli vectors.  
-   Complexity: \\( \\mathcal{O}(N^2) \\).
+   Recursive table $q(i,n)$ enables exact sampling of constrained Bernoulli vectors.  
+   Complexity: $\mathcal{O}(N^2)$.
 
 3. **MCMC Sampler**  
    Markov Chain with constrained state space.  
@@ -53,7 +53,7 @@ by Heng, Jacob, and Ju (2020) — [arXiv:2012.03103](https://arxiv.org/pdf/2012.
 
 4. **RQMC (Randomized Quasi-Monte Carlo)**  
    Uses Sobol sequences to replace uniform draws in the dynamic algorithm.  
-   Improves convergence: \\( \\text{MSE} = \\mathcal{O}(1/n^{2 - \\varepsilon}) \\).
+   Improves convergence: $\text{MSE} = \mathcal{O}(1/n^{2 - \varepsilon})$.
 
 ---
 
