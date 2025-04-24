@@ -1,8 +1,8 @@
 # Conditional Bernoulli Sampling – Monte Carlo Project
 
 This repository explores and compares several algorithms for sampling from a conditional Bernoulli distribution.  
-Given a vector of independent Bernoulli variables \\( X_i \\sim \\text{Bern}(p_i) \\), we aim to sample vectors  
-\\( X \\in \\{0,1\\}^N \\) such that \\( \\sum X_i = k \\).
+Given a vector of independent Bernoulli variables $( X_i \sim \text{Bern}(p_i) $), we aim to sample vectors  
+$( X \in \{0,1\}^N $) such that $( \sum X_i = k $).
 
 This project is based on the paper:  
 "A Simple Markov Chain for Independent Bernoulli Variables Conditioned on Their Sum"  
