@@ -60,3 +60,25 @@ by Heng, Jacob, and Ju (2020) — [arXiv:2012.03103](https://arxiv.org/pdf/2012.
 ## How to Run
 
 Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run main experiment:
+
+```bash
+python main.py
+```
+
+Or open the annotated notebook:
+
+```bash
+jupyter notebook main.ipynb
+```
+
+---
+
+## References
+
+Heng, Jacob, Ju (2020), \"A Simple Markov Chain for Independent Bernoulli Variables Conditioned on Their Sum\", arXiv:2012.03103
