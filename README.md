@@ -49,7 +49,7 @@ by Heng, Jacob, and Ju (2020) — [arXiv:2012.03103](https://arxiv.org/pdf/2012.
 3. **MCMC Sampler**  
    Markov Chain with constrained state space.  
    Swap 0 and 1 coordinates, accept moves with Metropolis-Hastings ratio.  
-   Invariant and irreducible under mild assumptions.
+   Invariant and irreducible leading to convergence.
 
 4. **RQMC (Randomized Quasi-Monte Carlo)**  
    Uses Sobol sequences to replace uniform draws in the dynamic algorithm.  
