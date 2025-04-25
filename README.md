@@ -13,8 +13,7 @@ by Heng, Jacob, and Ju (2020) — [arXiv:2012.03103](https://arxiv.org/pdf/2012.
 ## Project Structure
 
 ```bash
-├── main.py                   # Core implementation  
-├── main.ipynb                # Annotated notebook for analysis  
+├── main.ipynb                   # Core implementation
 ├── ReportMC.pdf              # Formal report  
 ├── requirements.txt          # Dependencies  
 ├── README.md  
