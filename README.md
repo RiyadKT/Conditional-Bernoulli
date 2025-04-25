@@ -77,8 +77,3 @@ Or open the annotated notebook:
 jupyter notebook main.ipynb
 ```
 
----
-
-## References
-
-Heng, Jacob, Ju (2020), \"A Simple Markov Chain for Independent Bernoulli Variables Conditioned on Their Sum\", arXiv:2012.03103
